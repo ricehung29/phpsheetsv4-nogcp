@@ -30,8 +30,6 @@
   <img src="https://github.com/ricehung29/phpsheetsv4-nogcp/blob/main/source/file_directory.png?raw=true" width=40% ></img>
   
   2. Using the function <br>
-  Reminder : the system will automatically delete the first row of excel
-  
   ```
   include 'phpsheetsv4-nogcp.php';
   $lines = getSheets('links you get'); 
@@ -40,11 +38,11 @@
   <img src="https://github.com/ricehung29/phpsheetsv4-nogcp/blob/main/source/thrid.png?raw=true" width=40%></img>
   
   3. Use the returned data <br>
-  Using a foreach , we can print the data out and display it .
-  (Left : Google Sheet , Right : Webpage)
+  Using a foreach , we can print the data out and display it . Data will be returned as an array , with first column be [0] and second be [1] etc . First row will be deleted as reference row in excel .
   
   <img src="https://github.com/ricehung29/phpsheetsv4-nogcp/blob/main/source/excel_compare.png?raw=true" width=40%></img>
-  <img src="https://github.com/ricehung29/phpsheetsv4-nogcp/blob/main/source/web_example.png?raw=true" width=40%></img>
+  <img src="https://github.com/ricehung29/phpsheetsv4-nogcp/blob/main/source/web_example.png?raw=true" width=40%></img><br>
+  (Left : Google Sheet , Right : Webpage)
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
