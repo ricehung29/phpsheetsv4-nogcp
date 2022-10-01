@@ -17,7 +17,7 @@
 
 
 ## Usage (Developing)
-### Preparae Google sheets document
+### Prepare Google sheets 
   1. Publish to web
   2. Take sheets key
 ### Applicate to PHP projects
