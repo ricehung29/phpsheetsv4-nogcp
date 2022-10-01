@@ -38,7 +38,7 @@
   <img src="https://github.com/ricehung29/phpsheetsv4-nogcp/blob/main/source/thrid.png?raw=true" width=40%></img>
   
   3. Use the returned data <br>
-  Using a foreach , we can print the data out and display it . Data will be returned as an array , with first column be [0] and second be [1] etc . First row will be deleted as reference row in excel .
+  Using a foreach , we can print the data out and display it . Data will be returned as an array , with first column be [0] and second be [1] etc . First row will be deleted as reference row in excel . Learn more in /examples/index.php .
   
   <img src="https://github.com/ricehung29/phpsheetsv4-nogcp/blob/main/source/excel_compare.png?raw=true" width=40%></img>
   <img src="https://github.com/ricehung29/phpsheetsv4-nogcp/blob/main/source/web_example.png?raw=true" width=40%></img><br>
